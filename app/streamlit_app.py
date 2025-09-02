@@ -92,7 +92,7 @@ CLASS_NAMES=['Pepper__bell___Bacterial_spot','Pepper__bell___healthy','Potato___
 
 st.title("Plant Disease Identifier")
 st.write("Upload an image of a leaf of your plant to identify the disease that it might has")
-st.write(":orange[**Note:** For better accuracy, make sure that the image consists of only one leaf with no other objects surrounding it]")
+st.write(":orange[For better accuracy, make sure that the image consists of only one leaf with no other objects surrounding it]")
 st.write(":green[**Note:** This app only works for bell pepper, potato and tomato plants]")
 model, auto_transform = load_model()
 uploaded = st.file_uploader("Upload an image", type=["jpg","jpeg","png"])
