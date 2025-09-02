@@ -1,28 +1,28 @@
-\# Plant Disease Identifier
+# Plant Disease Identifier
 
 
 
-\*\*Goal: \*\* Create an Image classifier model that can identify plant diseases based on an image of a leaf provided by the user (but the model works only for bell pepper, potato and tomato plants)
+**Goal: ** Create an Image classifier model that can identify plant diseases based on an image of a leaf provided by the user (but the model works only for bell pepper, potato and tomato plants)
 
 
 
-\*\*Dataset:\*\* PlantVillage Dataset (link: https://www.kaggle.com/datasets/emmarex/plantdisease)
+**Dataset:** PlantVillage Dataset (link: https://www.kaggle.com/datasets/emmarex/plantdisease)
 
 
 
-\## Repo structure
+## Repo structure
 
-\- notebooks/: Preprocessing the data and training the model
+- notebooks/: Preprocessing the data and training the model
 
-\- src/: reusable modules (data.py, train.py, model.py, predict.py)
+- src/: reusable modules (data.py, train.py, model.py, predict.py)
 
-\- app/: Streamlit demo
+- app/: Streamlit demo
 
-\- experiments/: final model and artifacts
+- experiments/: final model and artifacts
 
 
 
-\## Model
+## Model
 
 -The trained model's state dictionary is saved as experiments/PlantDiseaseIdentifier.pth . 
 
@@ -32,44 +32,39 @@
 
 
 
-\## How to run locally
+## How to run locally
 
-1\. Create venv and install requirements
+1. Create venv and install requirements
 
-2\. `jupyter notebook`
+2. `jupyter notebook`
 
-3\. `streamlit run streamlit\_app.py`
-
-
-
-\## Notes
-\- Because the dataset is big it won't be added to the repo, it's gonna be up to you to download it from the link provided and you need to create the folders **data** and **PlantVillage** (image_classifier_explainability/data/PlantVillage) and store the dataset inside the PlantVillage directory.
-
-\- Only the model's state dictionary is saved after running the notebook.
-
-\- To reproduce the model: run `notebooks/PlantDiseaseIdentifier.ipynb` end-to-end (it produces experiments/PlantDiseaseIdentifier.pth).
+3. `streamlit run streamlit\_app.py`
 
 
 
-\## Live Demo
+## Notes
+- Because the dataset is big it won't be added to the repo, it's gonna be up to you to download it from the link provided and you need to create the folders **data** and **PlantVillage** (image_classifier_explainability/data/PlantVillage) and store the dataset inside the PlantVillage directory.
+
+- Only the model's state dictionary is saved after running the notebook.
+
+- To reproduce the model: run `notebooks/PlantDiseaseIdentifier.ipynb` end-to-end (it produces experiments/PlantDiseaseIdentifier.pth).
 
 
 
-\- URL: 
+## Live Demo
+
+- URL: 
+
+
+## License
+
+- Unknown
 
 
 
-\## License
+## Author
 
-
-
-\- Unknown
-
-
-
-\## Author
-
-\- Khalil Fawaz — link to LinkedIn: www.linkedin.com/in/khalil-fawaz-aa7709314
+- Khalil Fawaz — link to LinkedIn: www.linkedin.com/in/khalil-fawaz-aa7709314
 
 
 
