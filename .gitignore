@@ -42,6 +42,7 @@ Thumbs.db
 # VSCode / IDE settings
 .vscode/
 .idea/
+.vs/
 
 # Docker
 *.tar
