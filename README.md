@@ -38,7 +38,7 @@
 
 2. `jupyter notebook`
 
-3. `streamlit run streamlit\_app.py`
+3. `streamlit run streamlit_app.py`
 
 
 
@@ -53,7 +53,7 @@
 
 ## Live Demo
 
-- URL: 
+- URL: https://plantdiseaseidentifier-7gtdeyaxg8uwbj4qgvtf6f.streamlit.app/
 
 
 ## License
