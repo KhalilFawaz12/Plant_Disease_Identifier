@@ -77,7 +77,8 @@ def class_to_phrase(class_name):
 def load_model():
     model,auto_transform=create_efficientnetb1_model(num_classes = 15, fine_tune = False)
     MODEL_PATH=os.path.join(PROJECT_ROOT,"experiments","PlantDiseaseIdentifier.pth") 
-    model.load_state_dict(torch.load(MODEL_PATH))
+    model.load_state_dict(torch.load(MODEL_PATH,map_location=torch.device("cpu")))
+    model.to("cpu")
     return model, auto_transform
 
 
