@@ -2,7 +2,7 @@
 
 
 
-**Goal: ** Create an Image classifier model that can identify plant diseases based on an image of a leaf provided by the user (but the model works only for bell pepper, potato and tomato plants)
+**Goal:** Create an Image classifier model that can identify plant diseases based on an image of a leaf provided by the user (but the model works only for bell pepper, potato and tomato plants)
 
 
 
