@@ -6,17 +6,10 @@ import numpy as np
 import torch
 
 
-
-# Add src to PATH
-cwd=os.getcwd()
-# If cwd doesn't end with "Plant_Disease_Identifier", assume that the project root is the parent folder
-if os.path.basename(cwd).lower() != "Plant_Disease_Identifier":
-    PROJECT_ROOT = os.path.abspath(os.path.join(cwd, ".."))
-else:
-    PROJECT_ROOT = cwd
-
-sys.path.insert(0, str(PROJECT_ROOT)) 
-
+# Add repo root to PATH so `import src...` works on hosted environments
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
 
 
